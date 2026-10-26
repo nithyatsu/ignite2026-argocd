@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environment": { "value": "/planes/radius/local/resourceGroups/voting-argo/providers/Radius.Core/environments/kubernetes" },
+    "imageTag": { "value": "047c81d1f93c53cad6074db9ad525bf37a541178-arm64" },
+    "redisImage": { "value": "ghcr.io/nithyatsu/redis@sha256:7e180df929e2aa87c71fd61838e7775ebab7e7e7a08e438045fbeaa123960320" },
+    "postgresPassword": { "value": "Prototype-Only-Pa55" }
+  }
+}
