@@ -46,6 +46,9 @@ resource voteContainer 'Radius.Compute/containers@2025-08-01-preview' = {
           }
         }
         env: {
+          OPTION_A: {
+            value: 'Argo'
+          }
           REDIS_HOST: {
             value: 'localhost'
           }
