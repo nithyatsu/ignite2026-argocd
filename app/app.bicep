@@ -49,6 +49,9 @@ resource voteContainer 'Radius.Compute/containers@2025-08-01-preview' = {
           OPTION_A: {
             value: 'Argo'
           }
+          OPTION_B: {
+            value: 'Flux'
+          }
           REDIS_HOST: {
             value: 'localhost'
           }
